@@ -1,4 +1,5 @@
 body {
+    background: #1e1f24;
     color: blue;
     text-align: left;
     font-family: Arial;
@@ -16,12 +17,18 @@ body {
 }
 
 #cabecera{
-    background: #33a;
+    background: #33a url("imagenes/dragon.png") no-repeat center center ;
     box-shadow: 9px 9px 5px 0px rgba(95, 109, 179, 1);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+#cabecera #logo 
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline {
@@ -34,5 +41,6 @@ body {
 }
 
 #post{
+    background:white;
     padding: 1em;
 }
